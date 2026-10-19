@@ -3,6 +3,13 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+@media only screen and (max-width: 1200px) {
+    body{
+        background-image: url(photos/sunset-view-1.png);
+        background-repeat: no-repeat;
+        background-size: 200vh;
+    }
+}
 .hello{
     display: flex;
     justify-content: center;

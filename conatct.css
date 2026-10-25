@@ -1,26 +1,38 @@
-header{
+.navigation ul{
     display: block;
+    list-style: none;
+    padding: 0px;
     background-color: transparent;
-    height: 10vh;
-    width: 47%;
     margin-left: 25%;
-    background-color: rgb(112, 199, 86);
+    width: 90vh;
+    background-color: rgba(108, 231, 70, 0.7);
     border-radius: 10px;
+    overflow: hidden;
 }
-a{
-    width: 25%;
-    padding: 2%;
-    font-size: 200%;;
+.navigation a{
+    display: block;
+    font-size: 200%;
+    margin: 2vh;
     text-decoration: none;
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
+    text-align: center;
 }
-a:hover{
-    color: rgb(122, 122, 122);
-    background-color: rgba(240, 255, 255, 0.445);
+.navigation li{
+    float: left;
+}
+.navigation a:hover{
+    color: rgb(59, 59, 59);
     border-radius: 8px;
 }
+.logocska{
+    display: block;
+    height: 7vh;
+    width: auto;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
 body{
-    background-coor: #0e0f11;
+    background-color: #0e0f11;
 }

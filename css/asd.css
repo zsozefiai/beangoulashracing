@@ -55,3 +55,69 @@ h1{
 *, html{
     scroll-behavior: smooth !important;
 }
+hr {
+  border: none;
+  height: 5px;
+  background-color: #6cf32ed2;
+  width: 15%;
+  margin-top: -58vh;
+  margin-left: 100vh;
+  display: block;
+  transform: rotate(-45deg);
+}
+.specs{
+    display: block;
+    width: 70vh;
+    height: auto;
+    background-color: #6cf32eef;
+    padding: 1vh;
+    border-radius: 15px;
+    margin-left: 110vh;
+    margin-top: -25vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.social{
+    display: block;
+    width: 85vh;
+    background-color: rgba(0, 0, 0, 0.842);
+    margin-left: 100vh;
+    float: left;
+    padding: 1px;
+    margin-top: 1vh;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+}
+.lgo{
+    width: 20vh;
+    padding: 5px;
+}
+#insta{
+    width: 15vh;
+    margin-bottom: 2vh;
+}
+#tiktoksz{
+    width: 17vh;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+}
+#yt{
+    width: 20vh;
+    margin-bottom: 3vh;
+}
+.nemtudom{
+    display: block;
+    margin-left: 143vh;
+    margin-top: 37vh;
+    margin-bottom: -1vh;
+    background-color: rgba(0, 0, 0, 0.842);
+    width: 42vh;
+    height: auto;
+    border-top-left-radius: 22px;
+}
+#szocial{
+    color: antiquewhite;
+    font-size: 300%;
+    padding: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+}
